@@ -16,6 +16,12 @@ body {
 .white{
     background-color: white;
 }
+.grey-light{
+    color: #666;
+}
+.georgia{
+    font-family: georgia;
+}
 
 .navbar > nav {
     margin: 0 auto;
@@ -96,31 +102,66 @@ body {
 
 
 main {
-    margin-top: 80px;
+    height: 100%;
+    margin: 0;
     display: block;
 }
 
-.container {
-    width: 50%;
-    margin: 0 auto;
+article{
+    padding-top: 48px;
+    margin: 0 auto 20px;
+    position: relative;
+    display: block;
 }
 
 .article-heading {
-    margin: 0 auto;
+    margin-top: 56px;/*2.8125rem;*/
+    display: block;
 }
 
-.heading-image figure {
-    width: auto;
-}
-
-.heading-image img {
+.title-article h1{
     position: relative;
-    left: 17.5%;
-    width: 1200px;
+    margin-bottom: 1rem;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    font-style: italic;
 }
 
-.heading-image figcaption {
-    width: 50%;
-    position: relative;
-    left: 17.5%;
+.heading-figure{
+    width: 945px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px
+
+}
+.heading-figure img{
+    cursor: pointer;
+    width: 100%;
+}
+
+figure{
+    display: block;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+figcaption{
+    margin-left: 0;
+    max-width: 720px;
+}
+
+.description-img{
+    margin-right: 7px;
+    text-align: left;
+}
+
+.credits-img{
+    display: block;
+    color:#888;
+    font-size:13px;
 }
