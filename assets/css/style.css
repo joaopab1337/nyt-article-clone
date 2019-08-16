@@ -7,10 +7,10 @@ body {
 }
 
 .navbar {
-    /* position: fixed; */
     border-bottom: 1px solid #e2e2e2;
     height: 43px;
     width: 100%;
+    /* position: fixed; */
 }
 
 .navbar > nav {
@@ -59,4 +59,30 @@ body {
 
 main {
     margin-top: 80px;
+    display: block;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.article-heading {
+    margin: 0 auto;
+}
+
+.heading-image figure {
+    width: auto;
+}
+
+.heading-image img {
+    position: relative;
+    left: 17.5%;
+    width: 1200px;
+}
+
+.heading-image figcaption {
+    width: 50%;
+    position: relative;
+    left: 17.5%;
 }
