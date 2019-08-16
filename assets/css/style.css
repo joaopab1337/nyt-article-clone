@@ -3,21 +3,24 @@ body {
     padding: 0;
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
-    overflow-x: hidden;
 }
 
 .navbar {
     border-bottom: 1px solid #e2e2e2;
-    height: 43px;
     width: 100%;
-    /* position: fixed; */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+.white{
+    background-color: white;
 }
 
 .navbar > nav {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 135px;
-    padding: 4px 15px 2px 15px;
+    margin: 0 auto;
+    max-width: 1605px;
+    padding: 4px 15px 2px;
 }
 
 .navbar img {
@@ -27,18 +30,53 @@ body {
     margin: 6px 400px 0 400px;
 }
 
-.section-link {
+.topic-link {
     color: black;
     text-decoration: none;
 }
 
-.section-link:hover {
+.topic-link:hover {
     text-decoration: underline;
 }
 
+.navbar-links {
+    display: flex;
+    justify-content: space-around;
+    left: 10px;
+    position: absolute;
+}
 .navbar-links * {
     padding: 8px 9px;
-    margin-right: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    display: inline-block;
+}
+.topic-section{
+    display: block;
+    position: absolute;
+    left: 105px;
+    top: 18px;
+}
+
+.title-section{
+    text-align: center;
+    display: block;
+    margin: 6px auto 0;
+}
+.buttons-section{
+    top: 8px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 10px;
+}
+.buttons-section *{
+    margin-right: 7px;
+}
+.title-section a{
+    width: 195px;
+    height: 26px;
 }
 
 .btn {
