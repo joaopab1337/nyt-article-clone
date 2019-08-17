@@ -99,8 +99,7 @@ body {
     background-color: #326891;
     cursor: pointer;
 }
-
-
+/*Section Article*/
 main {
     height: 100%;
     margin: 0;
@@ -158,10 +157,79 @@ figcaption{
 .description-img{
     margin-right: 7px;
     text-align: left;
+    font-size: 16px;
 }
 
 .credits-img{
     display: block;
     color:#888;
-    font-size:13px;
+    font-size:14px;
+}
+.author-article{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+div{
+    display: block;
+}
+.author-article *{
+    display: inline;
+    font-weight: 700;
+    color: #121212;
+}
+.author-article a{
+    text-decoration: none;
+}
+.date-social-network-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
+ol, ul{
+    list-style: none;
+    padding: 0;
+}
+.date-social-network-buttons time{
+    width: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-weight: 500;
+    font-family: Helvetica;
+    font-size: 0.875rem;
+}
+.social-network-buttons{
+    color: #999;
+    padding: 0;
+}
+.social-network-buttons-section{
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 5px;
+    color: #999;
+}
+.social-network-buttons li {
+    color: #999;
+    display: inline;
+    margin-right: 16px;
+    padding: 10px 0;
+}
+.social-network-buttons :last-child{
+    margin-right: 0;
+    color: #999;
+    display: inline;
+    padding: 10px 0;
+    position: relative;
+    right: 3px;
+}
+.author-social-network-section{
+    margin-bottom: 20px;
+    color: #121212;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
