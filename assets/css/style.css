@@ -468,6 +468,10 @@ figcaption p{
         width: 640px;
         height: 357.5px;
     }
+
+    /* .telescope-image {
+        max-width: 720px;
+    } */
 }
 
 @media (min-width: 640px) {
@@ -475,4 +479,8 @@ figcaption p{
         width: 640px;
         height: 319px;
     }
+
+    /* .telescope-image {
+        width: auto;
+    } */
 }
