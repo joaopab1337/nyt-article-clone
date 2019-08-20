@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
+    color: #333;
 }
 .black {
     color:  #333;
@@ -178,6 +179,7 @@ figcaption{
 .article-paragraph {
     font-size: 1.25rem;
     line-height: 1.875rem;
+
 }
 
 .article-link {
@@ -337,4 +339,93 @@ ol, ul{
     width: 71px;
     height: 1px;
     background-color: rgba(200, 200, 200);
+}
+
+.strong-subtitle{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.grid-img {
+    display: block;
+    margin: 15px auto 15px;
+    max-width: 945px;
+    width: calc(100% - 40px);
+    overflow: hidden;
+}
+
+.grid-img h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: georgia;
+    margin: 0 0 2px;
+    color: #000;
+}
+
+.grid-img span{
+    margin-right: 7px;
+    line-height: 1.125rem;
+    color: #666;
+    font-size: 15px;
+}
+.header-grid-img{
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.grid-img figure{
+    position: relative;
+    overflow: hidden;
+    width: 945px;
+    margin: 0;
+}
+
+.group-figcaption {
+    display: block;
+}
+
+#figcap-universe{
+    top: 13.8264%;
+    left: 0.0436%;
+    width: 228px;
+    position: absolute;
+
+}
+
+figcaption p{
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+    font-style: normal;
+}
+.group-figcaption span {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    color: #000000;
+    font-style: normal;
+    line-height: 17px;
+}
+
+#figcap-enough-time{
+    top: 13.8264%;
+    left: 25.5619%;
+    width: 228px;
+    position: absolute;
+}
+#figcap-coffee{
+    top: 13.8264%;
+    left: 51.0800%;
+    width: 228px;
+    position: absolute;
+}
+#figcap-coffee-everywhere{
+    top: 13.8264%;
+    left: 76.5982%;
+    width: 228px;
+    position: absolute;
 }
