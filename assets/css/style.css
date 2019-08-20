@@ -251,27 +251,54 @@ ol, ul{
     width: 600px;
 }
 
-.signup-aside {
+.aside-content {
     margin: auto 0 auto auto;
     width: 210px;
 }
 
-.signup-aside * {
+.aside-content * {
     margin-top: 4px;
     margin-bottom: 8px;
     text-align: left;
 }
 
-.signup-aside h2 {
+.aside-content h2 {
     font-size: 22px;
 }
 
-.signup-aside p {
+.aside-content p {
     font-size: 14px;
 }
 
-.signup-aside button {
+.aside-content button {
     width: 100%;
     max-width: 180px;
     text-align: center;
+}
+
+.aside-content h4 {
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.aside-image img {
+    width: 75px;
+    height: auto;
+}
+
+.aside-image h3 {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.aside-image a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-image a:hover {
+    text-decoration: underline;
 }
