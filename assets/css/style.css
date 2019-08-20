@@ -496,3 +496,39 @@ figcaption p{
 .telescope-image figcaption{
     margin: 10px 20px 0 0;
 }
+.text-bottom-article{
+    font-family: helvetica,arial,sans-serif;
+    font-size: 0.72rem;
+    line-height: 1rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin: 0 auto 1em;
+    color: #999;
+}
+.button-social-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin: 1.5rem auto 2rem;
+}
+.button-bottom{
+    width: 330px;
+}
+.button-bottom button{
+    width: 100%;
+}
+.social-network-bottom{
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 5px;
+}
+.social-network-bottom a{
+    margin-right: 16px;
+    padding: 10px 0;
+    width: 100%;
+}
+.social-network-bottom :last-child{
+    margin-right: 0;
+}
