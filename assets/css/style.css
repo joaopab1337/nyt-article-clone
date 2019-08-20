@@ -484,3 +484,15 @@ figcaption p{
         width: auto;
     } */
 }
+.telescope-image{
+    width: auto;
+    max-width: 600px;
+    margin: 2.6875rem auto;
+}
+.telescope-image img{
+    width: 100%;
+    vertical-align: top;
+}
+.telescope-image figcaption{
+    margin: 10px 20px 0 0;
+}
