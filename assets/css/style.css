@@ -4,14 +4,8 @@ body {
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
 }
-
-.navbar {
-    border-bottom: 1px solid #e2e2e2;
-    width: 100%;
-    position: fixed; 
-    top: 0;
-    left: 0;
-    z-index: 200;
+.black {
+    color:  #333;
 }
 .white{
     background-color: white;
@@ -21,6 +15,15 @@ body {
 }
 .georgia{
     font-family: georgia;
+}
+
+.navbar {
+    border-bottom: 1px solid #e2e2e2;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 200;
 }
 
 .navbar > nav {
@@ -232,4 +235,18 @@ ol, ul{
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.article-initial-part{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.content-initial-part{
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 0;
+    width: 600px;
 }
