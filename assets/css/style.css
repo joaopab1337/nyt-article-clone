@@ -250,3 +250,28 @@ ol, ul{
     margin-right: 0;
     width: 600px;
 }
+
+.signup-aside {
+    margin: auto 0 auto auto;
+    width: 210px;
+}
+
+.signup-aside * {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.signup-aside h2 {
+    font-size: 22px;
+}
+
+.signup-aside p {
+    font-size: 14px;
+}
+
+.signup-aside button {
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+}
