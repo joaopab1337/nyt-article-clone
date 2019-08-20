@@ -387,7 +387,7 @@ ol, ul{
 }
 
 #figcap-universe{
-    top: 13.8264%;
+    top: 23%;
     left: 0.0436%;
     width: 228px;
     position: absolute;
@@ -412,20 +412,67 @@ figcaption p{
 }
 
 #figcap-enough-time{
-    top: 13.8264%;
+    top: 23%;
     left: 25.5619%;
     width: 228px;
     position: absolute;
 }
 #figcap-coffee{
-    top: 13.8264%;
+    top: 23%;
     left: 51.0800%;
     width: 228px;
     position: absolute;
 }
 #figcap-coffee-everywhere{
-    top: 13.8264%;
+    top: 23%;
     left: 76.5982%;
     width: 228px;
     position: absolute;
+}
+
+#figcap-not-enough {
+    top: 70.4375%;
+    left: 0.0436%;
+    width: 228px;
+    position: absolute;
+}
+
+#figcap-inflation {
+    top: 70.4375%;
+    left: 25.5619%; 
+    width: 228px;
+    position: absolute;
+}
+
+#figcap-fluctuation {
+    top: 70.4375%;
+    left: 51.0800%;
+    width: 228px;
+    position: absolute;
+}
+#figcap-expansion {
+    top: 70.4375%;
+    left: 76.5982%;
+    width: 228px;
+    position: absolute;
+}
+
+.video-section {
+    width: 50%;
+    height: 100%;
+    margin: 60px auto 100px auto;
+}
+
+@media (min-width: 1440px) {
+    .video-section {
+        width: 640px;
+        height: 357.5px;
+    }
+}
+
+@media (min-width: 640px) {
+    .video-section {
+        width: 640px;
+        height: 319px;
+    }
 }
