@@ -532,3 +532,60 @@ figcaption p{
 .social-network-bottom :last-child{
     margin-right: 0;
 }
+.recirculation{
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+    margin-top: 45px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.related-content{
+    width: 80%;
+    max-width: 852px;
+}
+
+.related-content-title{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(0, 0, 0);
+
+}
+.related-content h2{
+    font-weight: 700;
+    max-width: 851.25px;
+    padding: 17px 0px 0px;
+    margin: 0;
+    line-height: 1.375rem;
+    font-size: 18px;
+}
+.related-content a{
+    text-decoration: none;
+    color: black;
+}
+.related-content a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.recirc-more-in{
+    max-width: 852px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 852px;
+    padding-top: 15px;
+    justify-content: space-between;
+    border-bottom: none;
+}
+.recirc-more-in figure{
+    display: flex;
+    flex-grow: 1;
+}
