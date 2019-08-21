@@ -629,3 +629,23 @@ figcaption p{
     height: auto;
     max-width: 100%;
 }
+
+@media (min-width: 740px){
+    .query-media-trending {
+        width: calc((4 * (((100vw - 370px) - 15px) / 12)) + 90px);
+        display: block;
+        margin-left: 30px;
+        max-width: 315px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.recirc-trending{
+    font-family:  helvetica, arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+}
