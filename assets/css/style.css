@@ -574,18 +574,58 @@ figcaption p{
     color: black;
 }
 
+@media (min-width: 740px){
+    .recirc-more-in{
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: none;
+    }
+}
 .recirc-more-in{
-    max-width: 852px;
-    padding: 0px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     max-width: 852px;
     padding-top: 15px;
-    justify-content: space-between;
-    border-bottom: none;
 }
-.recirc-more-in figure{
+
+@media (min-width: 1024px){
+    .query-media {
+        max-width: 32%;
+        flex-basis: 32%;
+        padding-right: 14.49px;
+        padding-left: 14.49px;
+    }
+}
+@media (min-width: 740px){
+    .query-media{
+        max-width: 48%;
+        padding: 0px 20px 20px;
+    }
+}
+@media (min-width: 600px){
+    .query-media {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+}
+
+.figure-section{
     display: flex;
     flex-grow: 1;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.recirc-more-in figure{
+    min-width: 60px;
+}
+
+.recirc-more-in img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
