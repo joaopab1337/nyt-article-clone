@@ -165,15 +165,24 @@ figcaption{
 }
 
 .credits-img{
-    display: block;
     color:#888;
-    font-size:14px;
+    font-size: 12px;
 }
-.author-article{
+
+.author-article {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 600px;
+}
+
+.author-article a {
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+}
+
+.author-article a:hover {
+    text-decoration: none;
 }
 
 .article-paragraph {
@@ -200,9 +209,7 @@ div{
     font-weight: 700;
     color: #121212;
 }
-.author-article a{
-    text-decoration: none;
-}
+
 .date-social-network-buttons {
     display: flex;
     justify-content: space-between;
@@ -226,6 +233,15 @@ ol, ul{
     color: #999;
     padding: 0;
 }
+
+.social-network-buttons a {
+    text-decoration: none;
+}
+
+.social-network-buttons li:hover {
+    background-color: white;
+}
+
 .social-network-buttons-section{
     display: flex;
     flex-shrink: 0;
@@ -238,14 +254,7 @@ ol, ul{
     margin-right: 16px;
     padding: 10px 0;
 }
-.social-network-buttons :last-child{
-    margin-right: 0;
-    color: #999;
-    display: inline;
-    padding: 10px 0;
-    position: relative;
-    right: 3px;
-}
+
 .author-social-network-section{
     margin-bottom: 20px;
     color: #121212;
@@ -660,6 +669,7 @@ figcaption p{
 }
 
 .more-in-article-link-date h2 {
+    margin-top: 8px;
     margin-bottom: 0;
 }
 
@@ -692,6 +702,10 @@ figcaption p{
 .trending-content div{
     border-bottom: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
+}
+
+.trending-content div:last-child{
+    border-bottom: none;
 }
 
 .nyt-nav-logo {
@@ -787,4 +801,27 @@ footer {
 
 .page-footer a:hover {
     text-decoration: underline;
+}
+
+.icon {
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    width: 15px;
+    border: 1px #eee solid;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: #eee;
+}
+
+.icon:hover {
+    background-color: white;
+}
+
+.bookmark-icon {
+    vertical-align: middle;
+}
+
+.bookmark-icon:hover {
+    opacity: .5;
 }
