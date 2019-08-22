@@ -183,12 +183,12 @@ figcaption {
 }
 
 .article-paragraph {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
 .article-link {
-    text-decoration: none;
+  text-decoration: none;
   color: #326891;
 }
 
@@ -198,20 +198,20 @@ figcaption {
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 .author-article * {
-    display: inline;
-    font-weight: 700;
-    color: #121212;
+  display: inline;
+  font-weight: 700;
+  color: #121212;
 }
 
 .date-social-network-buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
   flex-wrap: wrap;
 }
 
@@ -222,21 +222,21 @@ ul {
 }
 
 .date-social-network-buttons time {
-    width: auto;
-    margin-bottom: 0;
-    margin-left: 0;
-    font-weight: 500;
-    font-family: Georgia, Helvetica, sans-serif;
+  width: auto;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-weight: 500;
+  font-family: Georgia, Helvetica, sans-serif;
   font-size: 0.875rem;
 }
 
 .social-network-buttons {
-    color: #999;
-    padding: 0;
+  color: #999;
+  padding: 0;
 }
 
 .social-network-buttons a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .author-article {
@@ -247,17 +247,17 @@ ul {
 }
 
 .social-network-buttons-section {
-    display: flex;
-    flex-shrink: 0;
-    margin-bottom: 5px;
-    color: #999;
+  display: flex;
+  flex-shrink: 0;
+  margin-bottom: 5px;
+  color: #999;
 }
 
 .social-network-buttons li {
-    color: #999;
-    display: inline;
-    margin-right: 16px;
-    padding: 10px 0;
+  color: #999;
+  display: inline;
+  margin-right: 16px;
+  padding: 10px 0;
 }
 
 .social-network-buttons li:hover {
@@ -336,7 +336,7 @@ ul {
 }
 
 .unlock-articles a {
-    margin: 0 0 16px 0;
+  margin: 0 0 16px 0;
 }
 
 .aside-image a:hover {
@@ -344,8 +344,8 @@ ul {
 }
 
 .author-article a {
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
 }
 
 .author-article a:hover {
