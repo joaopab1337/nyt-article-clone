@@ -467,14 +467,21 @@ figcaption p{
 }
 
 .video-section {
-    width: 50%;
-    height: 100%;
-    margin: 60px auto 100px auto;
+    width: 100%;
+    margin: 37px auto;
 }
+.video-section figure{
+    margin: 0;
+}
+
+
 
 @media (min-width: 1440px) {
     .video-section {
-        width: 640px;
+        width: 600px;
+    }
+    .article-video {
+        width: 600px;
         height: 357.5px;
     }
 
@@ -483,9 +490,14 @@ figcaption p{
     } */
 }
 
-@media (min-width: 640px) {
+@media (min-width: 600px) {
     .video-section {
-        width: 640px;
+        width: 600px;
+        margin: 43px auto;
+        height: 357.5px;
+    }
+    .article-video {
+        width: 600px;
         height: 319px;
     }
 
@@ -493,6 +505,12 @@ figcaption p{
         width: auto;
     } */
 }
+
+.article-video{
+    width: 100%;
+    height: 357.5px;
+}
+
 .telescope-image{
     width: auto;
     max-width: 600px;
