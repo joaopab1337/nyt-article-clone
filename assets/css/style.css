@@ -23,7 +23,7 @@ iframe {
 }
 
 .georgia {
-  font-family: Georgia;
+  font-family: Georgia, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -242,7 +242,7 @@ ul {
   margin-bottom: 0;
   margin-left: 0;
   font-weight: 500;
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-size: 0.875rem;
 }
 
@@ -386,7 +386,7 @@ ul {
   font-size: 1.25rem;
   font-weight: 700;
   font-style: normal;
-  font-family: "Georgia";
+  font-family: Georgia, Helvetica, sans-serif;
   margin: 0 0 2px;
   color: #000;
 }
@@ -683,7 +683,7 @@ p {
   margin-top: 3px;
   min-height: 12px;
   display: block;
-  font-family: "Georgia";
+  font-family: Georgia, Helvetica, sans-serif;
   text-align: right;
   color: rgb(153, 153, 153);
   font-size: 0.65em;
@@ -691,7 +691,7 @@ p {
 }
 
 .more-in-article-link-date {
-  font-family: "Georgia";
+  font-family: Georgia, Helvetica, sans-serif;
   font-weight: 500;
   padding-right: 1rem;
   color: rgb(51, 51, 51);
@@ -705,12 +705,12 @@ p {
 .link-article-bottom {
   text-decoration: none;
   color: black;
-  font-family: "Georgia";
+  font-family: Georgia, Helvetica, sans-serif;
 }
 
 .link-article-bottom:hover {
   color: #888;
-  font-family: "Georgia";
+  font-family: Georgia, Helvetica, sans-serif;
 }
 
 .more-in-article-link-date time {
@@ -739,7 +739,7 @@ p {
 }
 
 .recirc-trending {
-  font-family: "Georgia", serif;
+  font-family: Georgia, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.375rem;
