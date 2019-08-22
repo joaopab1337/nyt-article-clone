@@ -27,6 +27,13 @@ img {
   text-decoration: none;
 }
 
+.page-footer a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+}
+
 .black {
   color: #333;
 }
@@ -831,13 +838,6 @@ footer {
 .page-footer li {
   padding: 0 10px;
   display: inline-block;
-}
-
-.page-footer a {
-  text-decoration: none;
-  padding: 10px 0;
-  color: rgb(153, 153, 153);
-  font-size: 12px;
 }
 
 .page-footer a:hover {
