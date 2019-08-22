@@ -610,7 +610,6 @@ figcaption p{
     margin: 0;
     max-width: 32%;
     padding-bottom: 30px;
-;
 }
 
 .figure-section figure{
@@ -693,4 +692,28 @@ figcaption p{
 .trending-content div{
     border-bottom: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
+}
+
+.nyt-nav-logo {
+    width: 184px;
+    height: 44px;
+}
+
+.bottom-site {
+    max-width: 1200px;
+    margin: auto;
+    border-top: 2px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.header-section {
+    margin-top: 1px;
+    border-top: 1px solid rgb(226, 226, 226);
+    width: 100%;
+}
+
+.header-section a:last-child {
+    margin-top: 18px;
+    font-size: 12px;
+    float: right;
 }
