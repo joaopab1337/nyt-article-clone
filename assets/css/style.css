@@ -762,3 +762,29 @@ figcaption p{
     padding-bottom: 0px;
     text-decoration: none;
 }
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-footer ul{
+    text-align: center;
+    margin: 8px auto 48px auto;
+}
+
+.page-footer li {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.page-footer a {
+    text-decoration: none;
+    padding: 10px 0;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+
+.page-footer a:hover {
+    text-decoration: underline;
+}
