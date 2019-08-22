@@ -302,10 +302,6 @@ ul {
   font-size: 22px;
 }
 
-.aside-content p {
-  font-size: 14px;
-}
-
 .aside-content button {
   width: 100%;
   max-width: 180px;
@@ -339,17 +335,9 @@ ul {
   margin: 0 0 16px 0;
 }
 
-.aside-image a:hover {
-  text-decoration: underline;
-}
-
 .author-article a {
   text-decoration: underline;
   text-decoration-color: #ccc;
-}
-
-.author-article a:hover {
-  text-decoration: none;
 }
 
 .unlock-articles {
@@ -881,4 +869,16 @@ footer {
 
 .bookmark-icon:hover {
   opacity: 0.5;
+}
+
+.aside-content p {
+  font-size: 14px;
+}
+
+.aside-image a:hover {
+  text-decoration: underline;
+}
+
+.author-article a:hover {
+  text-decoration: none;
 }
