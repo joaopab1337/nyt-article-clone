@@ -601,7 +601,6 @@ figcaption p{
     justify-content: space-between;
     max-width: 852px;
     padding-top: 15px;
-    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .figure-section {
@@ -662,7 +661,7 @@ figcaption p{
 }
 
 .more-in-article-link-date h2 {
-    margin: 5px;
+    margin-bottom: 0;
 }
 
 @media (min-width: 740px){
@@ -685,10 +684,12 @@ figcaption p{
     padding: 15px 0px;
     color: black;
 }
+
 .trending-content{
     margin-top: 15px;
     border-top: 1px solid rgb(226, 226, 226);
 }
+
 .trending-content div{
     border-bottom: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
