@@ -1,6 +1,6 @@
-# youtube-clone
+# nyt-article-clone
 
-Third project related to the HTML/CSS curriculum at [Microverse](https://microverse.org/).
+Third project related to the HTML/CSS curriculum at [Microverse](https://microverse.org/), where we need to clone an article from New York Times.
 
 The goal is to work with floating and positioning of elements.
 
