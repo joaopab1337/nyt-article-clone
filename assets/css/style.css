@@ -586,11 +586,11 @@ figcaption p{
     line-height: 1.375rem;
     font-size: 18px;
 }
-.related-content-title a{
+.related-content-title a, .links-site-section a{
     text-decoration: none;
     color: black;
 }
-.related-content-title a:hover{
+.related-content-title a:hover, .links-site-section a:hover{
     text-decoration: underline;
     color: black;
 }
@@ -716,4 +716,49 @@ figcaption p{
     margin-top: 18px;
     font-size: 12px;
     float: right;
+}
+
+.links-site-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.links-site-section h4 {
+    font-weight: bold;
+}
+
+.links-site-section li {
+    height: 23px;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.subscribe-section {
+    padding-left: 16px;
+    border-left: 1px solid rgb(226, 226, 226);
+}
+
+.home-svg, .subscription-svg, .crossword-svg, .cooking-svg {
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
+}
+
+.subscribe-section li {
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+.emphasized-links a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    padding-bottom: 0px;
+    text-decoration: none;
 }
