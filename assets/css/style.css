@@ -15,6 +15,18 @@ img {
   max-width: 100%;
 }
 
+.emphasized-links a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+  text-decoration: none;
+}
+
 .black {
   color: #333;
 }
@@ -258,10 +270,6 @@ ul {
   display: inline;
   margin-right: 16px;
   padding: 10px 0;
-}
-
-.social-network-buttons li:hover {
-  background-color: white;
 }
 
 .author-social-network-section {
@@ -810,18 +818,6 @@ p {
   white-space: nowrap;
 }
 
-.emphasized-links a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  text-transform: capitalize;
-  font-size: 18px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  padding-bottom: 0;
-  text-decoration: none;
-}
-
 footer {
   max-width: 1200px;
   margin: 0 auto;
@@ -881,4 +877,8 @@ footer {
 
 .author-article a:hover {
   text-decoration: none;
+}
+
+.social-network-buttons li:hover {
+  background-color: white;
 }
