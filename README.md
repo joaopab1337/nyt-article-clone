@@ -4,7 +4,7 @@ Third project related to the HTML/CSS curriculum at [Microverse](https://microve
 
 The goal is to work with floating and positioning of elements.
 
-[You can check it here](https://joaopab1337.github.io/nyt-article-clone/index.html)
+[You can check it here](https://joaopab1337.github.io/nyt-article-clone/)
 
 #### Authors
 
